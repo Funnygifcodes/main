@@ -10,7 +10,7 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="https://funnygifcodes.github.io/main/fun.html">Home</a>	
   <!-- Dropdown -->  
-  <div class="dropdown">
+<div class="dropdown">
     <button onclick="myFunction()" class="dropbtn">Programming</button>
     <div id="myDropdown" class="dropdown-content">
       <a href="ascii.html">Asciis</a>
@@ -20,13 +20,24 @@
       <a href="grocries.html">Grocries</a>
     </div>
   </div>
+ <br></br>
+ <br></br>
+ <br></br>
+ <br></br> 
+<div class="dropdown">
+	<button onclick="myFunction1()" class="dropbtn">Articles</button>
+	<div id="myDropdown1" class="dropdown-content">
+	  <a href="starlink.html">Asciis</a>
+	</div>
+</div>
+
 </div>
 </div>
 <div class="topnav">
   <div class="card">
     <div class="container">
       <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    </div>  
+    </div> 
     <h2 class="center">
       Welcome to the official page of @funnygifdan<br><br>
       <p id="date" class="date"></p></h2>
@@ -156,6 +167,9 @@
   function myFunction() {
 	document.getElementById("myDropdown").classList.toggle("show");
   }
+  function myFunction1() {
+	document.getElementById("myDropdown1").classList.toggle("show");
+  }  
   
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
